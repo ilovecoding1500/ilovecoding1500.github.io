@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Bagian menu -->
+    <div class="topnav">
+        <a href="#">Portofolio</a>
+        <a href="#">Profil</a>
+        <a href="#">Home</a>
+      </div>
+  <!-- Bagian Utama -->
+      <div class="content">
+        <h1>Hi Rasyidan, Welcome To The Website</h1>
+        <h4>ini adalah website latihan pertama</h4>
+        <br>
+        <h2>Mengukur Berat Badan dengan BMI</h2>
+        <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang dengan kalkulator BMI.</p>
+  <!-- Bagian Kalkulator BMI -->      
+        <div class="wrapper">
+            <form>    
+                <div class="form-group">
+                    <strong>Gender</strong><br>
+                        <input type="radio" id="Male" name="Gender" value="Male">
+                        <label for="Male">Male</label>
+                        <input type="radio" id="Female" name="Gender" value="Female">
+                        <label for="Female">Female</label>
+                </div>
+                <div class="form-group">
+                    <label for="age">Age :</label>
+                    <br>
+                    <input type="text" id="age"><br><span id="age_error"></span>
+                </div>
+                <div class="form-group">
+                    <label for="weight">Weight :</label>
+                    <br>
+                    <input type="text" id="weight"><br><span id="weight_error"></span>
+                </div>
+                <div class="form-group">
+                    <label for="height">Height :</label>
+                    <br>
+                    <input type="text" id="height"><br><span id="height_error"></span>
+                </div>
+                
+            </form>  
+    
+            <button id="btn">Calculate</button>
+            <p id="output"></p>
+         </div>
+         <br>
+        <p>Body Mass Index (BMI) atau yang sering dikenal dengan Indeks Massa Tubuh (IMT) adalah nilai ukur untuk mengetahui status gizi seseorang berdasarkan berat dan tinggi badannya. Nilai BMI (IMT) juga dapat menjadi alat skrining awal untuk mengetahui risiko seseorang terhadap suatu penyakit.
+    
+            Nilai BMI (IMT) yang tinggi menandakan bahwa Anda kelebihan berat badan (overweight atau obesitas). Sementara nilai BMI (IMT) yang rendah artinya Anda kekurangan gizi dan memiliki berat badan rendah. Namun, IMT tidak bisa membedakan persen lemak tubuh dan persen massa otot.</p>
+        <br>
+        <hr>
+        <!-- bagian fasilitas -->
+        <h2>Our Facilitation</h2>
+        <div class="clearfix">
+          <div class="circle" id="circle1">
+            <br>
+            <p>Jakarta</p>
+          </div> 
+          <div class="circle" id="circle2">
+            <br>
+            <p>Bandung</p>
+          </div> 
+          <div class="circle" id="circle3">
+            <br>
+            <p>Surabaya</p>
+          </div>
+        </div>
+        <br>
+        <hr>
+        <!-- bagian kritik dan biodata -->
+        <h2>Message Us</h2>
+        <div class="messagebox">
+            <form action="Message">
+              <label for="name">Nama :</label>
+              <input type="text" id="nama" name="nama" placeholder="Your name..">
+                <br>
+              <label for="birthday">Tanggal Lahir:</label>
+              <input type="date" id="birthday" name="birthday">
+                <br>
+                <p>Jenis Kelamin :</p>
+                <input type="radio" id="Male" name="Gender" value="Male">
+                <label for="Male">Laki-laki</label>
+                <input type="radio" id="Female" name="Gender" value="Female">
+                <label for="Female">Perempuan</label>
+                <br>
+                <br>
+                <label for="pesan">pesan :</label>
+                <br>
+                <textarea name="pesan" id="pesan" rows="10" cols="30"></textarea>                
+                <br>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+          <div class="biodata">
+            <strong>current time</strong><p id="time"></p>
+            <p> <strong>Nama :</strong> Rasyidan Aufar Dagustani</p>
+            <p> <strong>Tanggal Lahir :</strong> 03/06/1999</p>
+            <p> <strong>Jenis Kelamin :</strong> Laki - Laki</p>
+            <p> <strong>Pesan :</strong> Lagi Belajar buat Website</p>
+
+          </div>
+      </div>
+      
+      <div class="footer">
+        <p>Created By RevoU</p>
+      </div>
+   
+</body>
+
+</html>

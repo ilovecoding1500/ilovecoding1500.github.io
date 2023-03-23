@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* Style menu */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+  
+/* Style menu links */
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* ganti warna */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+  /* Style content */
+.content {
+    background-color: #ffffff;
+    padding: 10px;
+}
+  
+  /* Style footer */
+.footer {
+    clear: both;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+span{
+    color: red;
+}
+/* Style kalkulator BMI */
+.wrapper{
+    position: static;
+    background-color: #ddd;
+    width: 300px;
+    height: 375px;
+    padding: 10px;
+    transform: (-50% -50%);
+}
+/* Style Fasilitas */
+.circle {
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #777;
+    float:left;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 100%;
+}
+/* Style Kritik */
+.messagebox {
+    width: 50%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float: left;
+}
+input[type=text], select  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=date], select  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.pesan {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+/* Style Biodata */
+.biodata {
+    float: right;
+    display: table;
+    width: 50%;
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid #333;
+}
